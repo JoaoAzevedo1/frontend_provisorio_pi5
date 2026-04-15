@@ -1,0 +1,13 @@
+# Dependências
+node_modules/
+dist/
+
+# Logs e arquivos de sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Variáveis locais (Aí sim entra o .env)
+.env
+.env.local

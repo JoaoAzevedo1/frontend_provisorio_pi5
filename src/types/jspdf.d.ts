@@ -1,3 +1,5 @@
+export {}
+
 declare module 'jspdf' {
   export class jsPDF {
     constructor(options?: unknown)
