@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apresentação sobre a orquestração analítica do UNIFAGOC Analytics e sua aplicação futura no Sistema Acadêmico UNIEDUCA."
+    />
+    <title>Da planilha à decisão | UNIFAGOC Analytics</title>
+    <link rel="stylesheet" href="./styles-1.css" />
+    <link rel="stylesheet" href="./styles-2.css" />
+    <link rel="stylesheet" href="./styles-3.css" />
+    <link rel="stylesheet" href="./styles-4.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#slide-1" aria-label="Ir para o início">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-name"><strong>UNIFAGOC</strong><small>ANALYTICS</small></span>
+      </a>
+      <div class="presentation-meta">
+        <span>Apresentação executiva</span>
+        <strong id="slide-counter">01 / 05</strong>
+      </div>
+    </header>
+
+    <main class="deck" aria-label="Apresentação Da planilha à decisão">
+      <section class="slide slide-cover is-active" id="slide-1" data-title="Da planilha à decisão" aria-labelledby="title-1">
+        <div class="cover-copy">
+          <p class="eyebrow">Orquestração analítica · visão de 5 minutos</p>
+          <h1 id="title-1">Da planilha<br /><span>à decisão.</span></h1>
+          <p class="lead">
+            Como um pipeline controlado transforma dados brutos em evidências —
+            e prepara o caminho para aplicações maiores no UNIEDUCA.
+          </p>
+          <div class="thesis">
+            <span class="thesis-number">01</span>
+            <p>Automação com controle, evidência e rastreabilidade.</p>
+          </div>
+        </div>
+        <div class="cover-visual" aria-label="Fluxo resumido da planilha à decisão">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="data-card data-card-input">
+            <span class="card-label">Entrada</span>
+            <strong>PLANILHA</strong>
+            <div class="mini-rows"><i></i><i></i><i></i></div>
+          </div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="data-card data-card-output">
+            <span class="card-label">Saída</span>
+            <strong>DECISÃO</strong>
+            <div class="mini-chart"><i></i><i></i><i></i><i></i></div>
+          </div>
+          <p class="time-pill">≈ 30 segundos</p>
+        </div>
+      </section>
+
+      <section class="slide" id="slide-2" data-title="A orquestração em funcionamento" aria-labelledby="title-2" hidden>
+        <div class="slide-heading">
+          <p class="eyebrow">O fluxo real do projeto</p>
+          <h2 id="title-2">A orquestração em funcionamento</h2>
+          <p>Cada etapa recebe um contrato claro, executa uma responsabilidade e entrega um resultado verificável.</p>
+        </div>
+
+        <ol class="pipeline" aria-label="Seis etapas do pipeline analítico">
+          <li>
+            <span class="step-no">01</span>
+            <div class="step-icon file-icon" aria-hidden="true"></div>
+            <strong>Entrada</strong>
+            <small>CSV ou XLSX</small>
+          </li>
+          <li>
+            <span class="step-no">02</span>
+            <div class="step-icon clean-icon" aria-hidden="true">✓</div>
+            <strong>Dados</strong>
+            <small>Limpeza, perfil e qualidade</small>
+          </li>
+          <li>
+            <span class="step-no">03</span>
+            <div class="step-icon map-icon" aria-hidden="true"><i></i><i></i><i></i></div>
+            <strong>Mapeamento</strong>
+            <small>Dimensão e métricas</small>
+          </li>
+          <li>
+            <span class="step-no">04</span>
+            <div class="step-icon calc-icon" aria-hidden="true">Σ</div>
+            <strong>Cálculo</strong>
+            <small>Indicadores e gráficos</small>
+          </li>
+          <li>
+            <span class="step-no">05</span>
+            <div class="step-icon insight-icon" aria-hidden="true">✦</div>
+            <strong>Interpretação</strong>
+            <small>IA local sobre evidências</small>
+          </li>
+          <li>
+            <span class="step-no">06</span>
+            <div class="step-icon report-icon" aria-hidden="true"><i></i><i></i><i></i></div>
+            <strong>Entrega</strong>
+            <small>Painel, HTML e PDF</small>
+          </li>
+        </ol>
+
+        <div class="contract-strip">
+          <div><span>ENTRADA</span><strong>arquivo + modelo</strong></div>
+          <div class="contract-arrow">→</div>
+          <div><span>CONTRATO CENTRAL</span><strong>dados + métricas + análise</strong></div>
+          <div class="contract-arrow">→</div>
+          <div><span>SAÍDA</span><strong>evidência pronta para uso</strong></div>
+        </div>
+        <p class="time-pill time-corner">≈ 60 segundos</p>
+      </section>
+
+      <section class="slide" id="slide-3" data-title="Onde a IA entra" aria-labelledby="title-3" hidden>
+        <div class="slide-heading compact-heading">
+          <p class="eyebrow">Arquitetura híbrida</p>
+          <h2 id="title-3">Onde a IA entra — e onde não entra</h2>
+        </div>
+
+        <div class="hybrid-grid">
+          <article class="engine-card deterministic-card">
+            <div class="engine-title">
+              <span class="engine-symbol">{ }</span>
+              <div><small>Base confiável</small><h3>Python calcula</h3></div>
+            </div>
+            <ul>
+              <li>limpeza e qualidade dos dados</li>
+              <li>totais, médias, medianas e variações</li>
+              <li>agregações e séries para os gráficos</li>
+              <li>validação das colunas selecionadas</li>
+            </ul>
+            <p class="engine-rule">O resultado numérico não depende da narrativa.</p>
+          </article>
+
+          <div class="decision-gate" aria-label="Decisão baseada na confiança do mapeamento">
+            <span>CONFIANÇA</span>
+            <strong>≥ 65%</strong>
+            <p>segue direto</p>
+            <i aria-hidden="true"></i>
+            <strong>&lt; 65%</strong>
+            <p>fallback semântico</p>
+          </div>
+
+          <article class="engine-card ai-card">
+            <div class="engine-title">
+              <span class="engine-symbol sparkle">✦</span>
+              <div><small>Apoio controlado</small><h3>IA local interpreta</h3></div>
+            </div>
+            <ul>
+              <li>resolve ambiguidades de significado</li>
+              <li>recebe somente fatos compactos</li>
+              <li>organiza destaques e pontos de atenção</li>
+              <li>sugere oportunidades e próximos passos</li>
+            </ul>
+            <p class="engine-rule">Saída estruturada, validada e ancorada em evidências.</p>
+          </article>
+        </div>
+
+        <div class="principles">
+          <div><span class="status-dot"></span><strong>Processamento local</strong><small>dados permanecem no computador</small></div>
+          <div><span class="status-dot coral"></span><strong>Falha explícita</strong><small>problemas não são ocultados</small></div>
+          <div><span class="status-dot yellow"></span><strong>Evidência primeiro</strong><small>interpretação vem por último</small></div>
+        </div>
+        <p class="time-pill time-corner">≈ 60 segundos</p>
+      </section>
+
+      <section class="slide" id="slide-4" data-title="Escala para o UNIEDUCA" aria-labelledby="title-4" hidden>
+        <div class="slide-heading compact-heading">
+          <p class="eyebrow">Do laboratório ao sistema acadêmico</p>
+          <h2 id="title-4">Como esse padrão escala para o UNIEDUCA</h2>
+          <p>O pipeline atual valida o método; o próximo nível distribui responsabilidades em fluxos especializados.</p>
+        </div>
+
+        <div class="scale-architecture">
+          <div class="orchestrator">
+            <span class="orchestrator-kicker">GRAFO PRINCIPAL</span>
+            <strong>ORQUESTRADOR</strong>
+            <small>contexto · roteamento · contratos</small>
+          </div>
+
+          <div class="domain-grid" aria-label="Exemplos de futuros subfluxos do UNIEDUCA">
+            <article><span>01</span><strong>Matrículas</strong><small>volume, jornada e conversão</small></article>
+            <article><span>02</span><strong>Desempenho</strong><small>notas, turmas e disciplinas</small></article>
+            <article><span>03</span><strong>Frequência</strong><small>presença e padrões temporais</small></article>
+            <article><span>04</span><strong>Risco de evasão</strong><small>sinais para investigação</small></article>
+            <article><span>05</span><strong>Financeiro</strong><small>receita e inadimplência</small></article>
+          </div>
+
+          <div class="governance-rail">
+            <span>VALIDAÇÃO</span><i></i><span>EVIDÊNCIA</span><i></i><span>LINEAGE</span><i></i><span>AUDITORIA</span><i></i><span>GOVERNANÇA</span>
+          </div>
+        </div>
+
+        <aside class="future-note">
+          <strong>Visão de evolução</strong>
+          <p>Estes são exemplos de aplicação futura. Não representam uma integração já implementada no UNIEDUCA.</p>
+        </aside>
+        <p class="time-pill time-corner">≈ 90 segundos</p>
+      </section>
+
+      <section class="slide slide-finale" id="slide-5" data-title="Valor e próximos passos" aria-labelledby="title-5" hidden>
+        <div class="slide-heading compact-heading">
+          <p class="eyebrow">O que o protótipo comprova</p>
+          <h2 id="title-5">Aprender pequeno para escalar com segurança</h2>
+        </div>
+
+        <div class="value-grid">
+          <article>
+            <span class="value-number">01</span>
+            <h3>Arquitetura modular</h3>
+            <p>Camadas e contratos tornam cada parte substituível, testável e reutilizável.</p>
+          </article>
+          <article>
+            <span class="value-number coral-value">02</span>
+            <h3>IA sob controle</h3>
+            <p>O modelo interpreta evidências; regras e cálculos continuam determinísticos.</p>
+          </article>
+          <article>
+            <span class="value-number yellow-value">03</span>
+            <h3>Base para expansão</h3>
+            <p>O mesmo padrão pode organizar domínios mais amplos sem criar um fluxo monolítico.</p>
+          </article>
+        </div>
+
+        <div class="maturity-path" aria-label="Caminho de evolução do projeto">
+          <div><span>AGORA</span><strong>Protótipo analítico</strong></div>
+          <i aria-hidden="true"></i>
+          <div><span>PRÓXIMO</span><strong>Subfluxos especializados</strong></div>
+          <i aria-hidden="true"></i>
+          <div><span>ESCALA</span><strong>Governança no UNIEDUCA</strong></div>
+        </div>
+
+        <blockquote>
+          “O protótipo reduz o risco técnico antes de levar a abordagem a um sistema acadêmico de grande porte.”
+        </blockquote>
+        <p class="time-pill time-corner">≈ 30 segundos</p>
+      </section>
+    </main>
+
+    <nav class="deck-controls" aria-label="Controles da apresentação">
+      <button class="nav-arrow" id="previous" type="button" aria-label="Slide anterior" disabled>←</button>
+      <div class="progress-dots" role="group" aria-label="Ir para slide">
+        <button class="dot is-active" type="button" data-slide="0" aria-label="Ir para o slide 1" aria-current="step"></button>
+        <button class="dot" type="button" data-slide="1" aria-label="Ir para o slide 2"></button>
+        <button class="dot" type="button" data-slide="2" aria-label="Ir para o slide 3"></button>
+        <button class="dot" type="button" data-slide="3" aria-label="Ir para o slide 4"></button>
+        <button class="dot" type="button" data-slide="4" aria-label="Ir para o slide 5"></button>
+      </div>
+      <button class="nav-arrow" id="next" type="button" aria-label="Próximo slide">→</button>
+    </nav>
+
+    <div class="keyboard-hint" aria-hidden="true"><kbd>←</kbd><kbd>→</kbd> para navegar</div>
+    <div class="progress-line" aria-hidden="true"><i id="progress-fill"></i></div>
+    <p class="sr-only" id="slide-announcement" aria-live="polite"></p>
+  </body>
+</html>
